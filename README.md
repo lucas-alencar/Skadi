@@ -1,0 +1,1 @@
+API para automatizar criação de listas e cards no trello.
