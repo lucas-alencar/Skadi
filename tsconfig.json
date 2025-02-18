@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                  // Define a versão do ECMAScript que você quer como saída
+    "module": "CommonJS",              // Módulo para uso no Node.js
+    "outDir": "./dist",                // Pasta onde os arquivos compilados serão armazenados
+    "rootDir": "./src",                // Pasta de origem do código TypeScript
+    "strict": true,                    // Ativa as verificações estritas do TypeScript
+    "esModuleInterop": true,           // Habilita a interoperabilidade entre CommonJS e ES Modules
+    "skipLibCheck": true,              // Ignora verificações de tipo de arquivos de definição de biblioteca
+    "forceConsistentCasingInFileNames": true  // Força a consistência de maiúsculas/minúsculas no sistema de arquivos
+  },
+  "include": [
+    "src/**/*.ts"                      // Inclui todos os arquivos .ts na pasta src
+  ],
+  "exclude": [
+    "node_modules"                     // Exclui a pasta node_modules
+  ]
+}
